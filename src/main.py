@@ -29,7 +29,7 @@ def main():
         draw_board(screen, board)  # Pass the board to the draw function
         
         # Update the display
-        pygame.display.flip()
+        pygame.display.update()
         
         # Limit the frame rate to 60 FPS
         clock.tick(60)
